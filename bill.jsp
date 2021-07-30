@@ -89,15 +89,7 @@ t=t-(t/10);
 out.println("Total Price to Pay For This Order After Applying 10% Discount:"+"  "+"`"+t);
 }
 %>
-<%
-String name=request.getParameter("t1");
-String payment=request.getParameter("pt");
-if(payment.equals("Cash on Delivery"))
-	out.println("Thanks For Ordering From Us" +"  "+ name + "  "+"Your Opted Mode of payment is: Cash on Delivery");
-else
-	out.println("Thanks For Ordering From Us" +"  "+ name + "  "+"Your Opted Mode of payment is: Online Payment");
 
-%>
 </pre>
 </body>
 </html>
