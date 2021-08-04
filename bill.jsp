@@ -1,6 +1,4 @@
-<html>
-<body>
-<pre>
+
 <%! String[] app; %>
 <center>Your Order From Appetizers Menu: 
 <% 
@@ -90,6 +88,3 @@ out.println("Total Price to Pay For This Order After Applying 10% Discount:"+"  
 }
 %>
 
-</pre>
-</body>
-</html>
