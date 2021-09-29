@@ -16,6 +16,9 @@
    else out.println ("<b>Nothing From This Menu<b>");
 out.println("Total Price For This Menu:"+"  "+"`"+a);
 out.println("____________________________________________");
+out.println("____________________________________________");
+out.println("Total Price For This Menu:");
+
 %>
 </center>
 <%! String[] dish; %>
